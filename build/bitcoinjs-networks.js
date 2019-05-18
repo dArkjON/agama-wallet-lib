@@ -487,14 +487,14 @@ var networks = (_networks = {
     dustThreshold: 1000
   },
   btx: {
-    messagePrefix: '\x19Bitcore Signed Message:\n',
+    messagePrefix: '\x19BitCore Signed Message:\n',
     bip44: 160,
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
     },
-    pubKeyHash: 0x0,
-    scriptHash: 0x5,
+    pubKeyHash: 0x03,
+    scriptHash: 0x7D,
     wif: 0x80,
     dustThreshold: 1000
   },
